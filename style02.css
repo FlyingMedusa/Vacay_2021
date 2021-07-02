@@ -9,20 +9,33 @@ h1{
 
 h2{
     color: #002a30;
-    text-align: center;
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 5px solid #01d4d6;
+    border: 5px solid #009dcf;
     width: 10%;
   }
 
 .paragraphs{
     padding: 0.01em 16px;
-    width: 800px;
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.company{
+  color: #009dcf;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.titles{
+  text-align: left;
+}
+
+.concaved{
+  margin-left: 30px;
 }
