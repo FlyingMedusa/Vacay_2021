@@ -10,15 +10,11 @@ h2{
   color: #002a30;
 }
 
-.img_abs {
-  position: absolute;
-  top: 80px;
-  right: 100px;
-}
-
 img{
+  float: right;
+  margin-right: 420px;
   border: 5px solid #009dcf;
-  width: 25%;
+  width: 150px;
 }
 
 .paragraphs{
