@@ -99,9 +99,14 @@ a:hover{
   overflow: auto;
   margin-top: 25px;
   border-bottom: 2px dotted #6d8b91;
+  filter: grayscale(100%);
 }
 
 .fun > img{
   float: right;
   width: 250px;
+}
+
+.fun:hover{
+  filter: grayscale(0%);
 }
