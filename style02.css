@@ -17,13 +17,6 @@ h2{
   color: #002a30;
 }
 
-img{
-  float: right;
-  margin-right: 420px;
-  border: 5px solid #009dcf;
-  width: 150px;
-}
-
 a:visited{
   color: rgb(34, 23, 39);
   text-decoration: underline;
@@ -36,6 +29,13 @@ a:link{
 
 a:hover{
   background-color: #b7daeb;
+}
+
+.portrait {
+  float: right;
+  margin-right: 420px;
+  border: 5px solid #009dcf;
+  width: 150px;
 }
 
 .paragraphs{
@@ -89,4 +89,19 @@ a:hover{
 .nav_links:link{
   color: rgb(233, 184, 255);
   text-decoration: underline;
+}
+
+.fun{
+  padding: 0.06em 16px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  margin-top: 25px;
+  border-bottom: 2px dotted #6d8b91;
+}
+
+.fun > img{
+  float: right;
+  width: 250px;
 }
