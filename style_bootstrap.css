@@ -1,0 +1,19 @@
+.bg-light{
+    background-color: rgb(131, 159, 163)!important;
+}
+
+h1{
+    color: #2897a8;
+}
+  
+h2{
+    color: #60a0aa;
+}
+
+h4{
+    margin-left: 20px;
+}
+
+p{
+    margin-left: 40px;
+}
