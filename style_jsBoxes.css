@@ -1,0 +1,33 @@
+body {
+    background-color: lightcyan;
+}
+
+#boxPlum {
+    text-align: center;
+    margin: 60px;
+    height: 150px;
+    width: 150px;
+    background-color: plum;
+    border-style: dotted;
+    border-width: thick;
+}
+
+#boxCyan {
+    text-align: center;
+    margin: 20px;
+    height: 150px;
+    width: 150px;
+    background-color: darkcyan;
+    border-style: dotted;
+    border-width: thick;
+}
+
+#boxOrchid {
+    text-align: center;
+    margin: 80px;
+    height: 150px;
+    width: 150px;
+    background-color: darkorchid;
+    border-style: dotted;
+    border-width: thick;
+}
