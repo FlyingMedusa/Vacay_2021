@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Martha's Bank</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <br>
+    <h1 style="text-align:center;">Welcome to Martha's Bank!</h1>
+    <div style="text-align:center;">
+        <h4>Please enter your name, password, and the amount of money you would like to withdraw:</h4><br>
+        <form>
+            <p>Name:</p>
+            <input id="nameForm" type="text">
+        </form>
+        <form>
+            <p>Password:</p>
+            <input id="passForm" type="text">
+        </form>
+        <form>
+            <p>Money to withdraw:</p>
+            <input id="amountForm" type="text">
+        </form>
+        <br>
+        <button type="button" onclick="returnInfo()" name="button" class="btn btn-info">Withdraw</button>
+        <p id="feedback"></p>
+    </div>
+    <script type="text/javascript" src="js_bank.js"></script>
+  </body>
+</html>
