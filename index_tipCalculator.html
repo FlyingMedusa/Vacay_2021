@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style_tipCalculator.css">
+  </head>
+  <body>
+    <br>
+    <div class="mainDiv">
+        <h1>TIP CALCULATOR</h1>
+        <form>
+            <p>Total bill amount:</p>
+            <label for="amount">$</label>
+            <input id="billAmount" type="text" name="amount">
+        </form>
+        <form>
+            <p>How would you rate the service?</p>
+            <select name="cars" id="cars">
+              <option disabled selected value="0">--Choose an option--</option>
+              <option value="0.3">30% outstanding</option>
+              <option value="0.2">20% good</option>
+              <option value="0.15">15% it was OK</option>
+              <option value="0.1">10% bad</option>
+              <option value="0.05">5% terrible</option>
+            </select>
+        </form>
+        <form>
+            <p>Split the bill between how many people?</p>
+            <input id="billSplit" type="text">
+        </form>
+        <br>
+        <input type="submit" value="Calculate">
+    </div>
+    <script type="text/javascript" src="js_tipCalculator.js"></script>
+  </body>
+</html>
