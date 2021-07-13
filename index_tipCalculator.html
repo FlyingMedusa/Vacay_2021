@@ -9,29 +9,43 @@
   <body>
     <br>
     <div class="mainDiv">
-        <h1>TIP CALCULATOR</h1>
-        <form>
-            <p>Total bill amount:</p>
-            <label for="amount">$</label>
-            <input id="billAmount" type="text" name="amount">
-        </form>
-        <form>
-            <p>How would you rate the service?</p>
-            <select name="cars" id="cars">
-              <option disabled selected value="0">--Choose an option--</option>
-              <option value="0.3">30% outstanding</option>
-              <option value="0.2">20% good</option>
-              <option value="0.15">15% it was OK</option>
-              <option value="0.1">10% bad</option>
-              <option value="0.05">5% terrible</option>
-            </select>
-        </form>
-        <form>
-            <p>Split the bill between how many people?</p>
-            <input id="billSplit" type="text">
-        </form>
-        <br>
-        <input type="submit" value="Calculate">
+        <div class="divOnTop">
+          <h1>TIP CALCULATOR</h1>
+        </div>
+        <div class="innerDiv">
+          <form>
+              <p>Total bill amount:</p>
+              <label for="amount">$</label>
+              <input id="billAmount" type="text" name="amount">
+          </form>
+          <br>
+          <form>
+              <p>How would you rate the service?</p>
+              <select name="service" id="service">
+                <option disabled selected value="0">--Choose an option--</option>
+                <option value="0.3">30% outstanding</option>
+                <option value="0.2">20% good</option>
+                <option value="0.15">15% it was OK</option>
+                <option value="0.1">10% bad</option>
+                <option value="0.05">5% terrible</option>
+              </select>
+          </form>
+          <br>
+          <form>
+              <p>Split the bill between how many people?</p>
+              <input id="billSplit" type="text" name="people">
+              <label for="name">people</label>
+          </form>
+          <br><br>
+          <div class="container">
+            <div class="row">
+              <div class="col text-center">
+                <button type="button" onclick="calculate()" class="btn btn-info">Calculate</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p id="payment"></p> <br>
     </div>
     <script type="text/javascript" src="js_tipCalculator.js"></script>
   </body>
