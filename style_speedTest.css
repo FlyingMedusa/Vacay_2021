@@ -5,5 +5,6 @@ div {
     background-color: plum;
     border-style: dotted;
     border-width: thick;
+    position: relative;
     display: block;
 }
