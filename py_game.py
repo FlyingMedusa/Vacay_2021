@@ -35,7 +35,7 @@ class Elves(My_rpg):
             if enemy_life <= 0:
                 print("You've killed him!")
             else:
-                print("You're both alive but toq tired to keep on fighting")
+                print("You're both alive but too tired to keep on fighting")
         else:
             print("You died")
 
@@ -52,7 +52,7 @@ class Dwarves(My_rpg):
             if enemy_life <= 0:
                 print("You've killed him!")
             else:
-                print("You're both alive but toq tired to keep on fighting")
+                print("You're both alive but too tired to keep on fighting")
         else:
             print("You died")
 
@@ -69,7 +69,7 @@ class Wizards(My_rpg):
             if enemy_life <= 0:
                 print("You've killed him!")
             else:
-                print("You're both alive but toq tired to keep on fighting")
+                print("You're both alive but too tired to keep on fighting")
         else:
             print("You died")
 
